@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="#0A7785"
+    android:outlineSpotShadowColor="#226F78"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/q1"
+        android:textColor="#531515"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/stat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Your score will shown here"
+        android:textColor="#531515"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/True"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#32BF37"
+        android:text="TRUE"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/False"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#A10C3F"
+        android:text="FALSE"
+        android:textSize="20sp" />
+
+</LinearLayout>

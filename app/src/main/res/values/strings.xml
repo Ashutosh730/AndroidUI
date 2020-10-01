@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidUI</string>
+    <string name="q1">1. Cyclones spin in a clockwise direction in the southern hemisphere</string>
+    <string name="q2">2. Goldfish only have a memory of three seconds</string>
+    <string name="q3">3. The capital of Libya is Benghazi</string>
+    <string name="q4">4. Brazil is the only country in the Americas to have the official language of Portuguese</string>
+    <string name="q5">5. The Channel Tunnel is the longest rail tunnel in the world</string>
+    <string name="q6">6. Darth Vader famously says the line “Luke, I am your father” in The Empire Strikes Back</string>
+    <string name="q7">7. Olivia Newton-John represented the UK in the Eurovision Song Contest in 1974, the year ABBA won with “Waterloo”</string>
+    <string name="q8">8. Stephen Hawking declined a knighthood from the Queen</string>
+    <string name="q9">9. The highest mountain in England is Ben Nevis</string>
+    <string name="q10">10. Nicolas Cage and Michael Jackson both married the same woman</string>
+
+</resources>
